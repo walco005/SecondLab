@@ -4,20 +4,22 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Tab Title</title>
+    <title>Busy</title>
 </head>
-<body>
-
+<body id="body">
+    <div id="page">
     <!-- We are using the h1 in place of the div for the title -->
-    <h1 id="Tile">Busy</h1>
+    <div id="Tile"><br><h1 class="Icon">Busy</h1></div>
 
-        <ul>
-            <li><a id="Anchor" href="Home.html">Home</a></li>
-            <li><a href="Home.html">About Busy</a></li>
-            <li><a href="Home.html">Contact Us</a></li>
-            <li><a href="Home.html">Mech</a></li>
+        <ul id="bar">
+            <li class="Nav"><a href="Home.html">Home</a></li>
+            <li class="Nav"><a href="http://www.morris.umn.edu">About Busy</a></li>
+            <li class="Nav"><a href="http://www.google.com">Contact Us</a></li>
+            <li class="Nav"><a href="http://www.images.google.com">Mech</a></li>
         </ul>
-    <div id="desc"><p>We make things.</p></div>
+    <div id="desc"><p>
+        We make things. Stuff too, and also items. The objects we deal with are pieces of a much larger subject.
+    </p></div>
 
     <!--This is HTML5-->
     <audio controls>
@@ -25,23 +27,23 @@
     </audio>
 
     <div class="imageBox">
-        <img class="imgSize" src="img/busy%202.gif">
-        <img class="imgSize" src="img/busy.png">
-        <img class="imgSize" src="img/Busy-Guy.gif">
+        <img class="img" src="img/busy%202.gif">
+        <img class="img" src="img/busy.png">
+        <img class="img" src="img/Busy-Guy.gif">
     </div>
 
     <!--This is HTML5-->
-    <footer id="foot">
-        <div>Locations:
+    <footer>
+        <div class="footerInfo">Locations:
             <ul>
-                <li>Morris</li>
-                <li>St. Cloud</li>
-                <li>St. Paul</li>
-                <li>Minneapolis</li>
+                <li class="footerInfo">Morris</li>
+                <li class="footerInfo">St. Cloud</li>
+                <li class="footerInfo">St. Paul</li>
+                <li class="footerInfo">Minneapolis</li>
             </ul>
         </div>
-        <div>Copyright &copy; 2014 Morris, MN John Smith 111-111-1111 123 First Street</div>
+        <div class="footerInfo">Copyright &copy; 2014 Morris, MN John Smith 111-111-1111 123 First Street</div>
     </footer>
-
+    </div>
 </body>
 </html>
